@@ -38,7 +38,6 @@ The project works with **FER-style CSV datasets**, where pixel values are stored
   - `classes.json`  
 
 Example label mapping (from `classes.json`):  
-```json
 {
   "classes": [0, 1, 2, 3, 4],
   "class_to_index": {
@@ -50,6 +49,7 @@ Example label mapping (from `classes.json`):
   }
 }
 
+##
 ⚙️ Installation
 
 # Clone repository
