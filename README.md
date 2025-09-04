@@ -1,9 +1,9 @@
-# Facial Emotion Recognition  
-This project trains and evaluates a ResNet18-based CNN to classify facial expressions (anger, disgust, sadness, happiness, surprise) from grayscale face images. Includes data preprocessing, training, evaluation, inference scripts, and visualization tools.
-# 🎭 Facial Emotion Recognition  
+# Face Emotion Detection  
+This project trains and evaluates a ResNet18-based CNN to classify Face expressions (anger, disgust, sadness, happiness, surprise) from grayscale Face images. Includes data preprocessing, training, evaluation, inference scripts, and visualization tools.
+# 🎭 Face Emotion Detection
 
-Facial Emotion Recognition using deep learning (PyTorch).  
-This project trains a **ResNet18-based CNN** to classify facial expressions into:  
+Face Emotion Detection using deep learning (PyTorch).  
+This project trains a **ResNet18-based CNN** to classify Face expressions into:  
 ➡️ anger, disgust, sadness, happiness, and surprise.  
 
 It includes **data preprocessing, training, evaluation, inference, and visualization tools** and is ready to run both **locally** and on **Google Colab**.  
@@ -53,8 +53,8 @@ Example label mapping (from `classes.json`):
 ⚙️ Installation
 
 # Clone repository
-git clone https://github.com/yourusername/Computer-Vision-Facial-Emotion-Recognition.git
-cd Computer-Vision-Facial-Emotion-Recognition
+https://github.com/samiNAT/Face_Emotion_Detection.git
+cd Face_Emotion_Detection
 
 🚀 Quick Start (Local)
 1. Train
@@ -111,14 +111,12 @@ display(Image(filename="outputs/acc_curve.png"))
 display(Image(filename="outputs/loss_curve.png"))
 
 6. Inference
-%run infer.py --index 97
+%run infer.py --index 97 #you can select any index in test.csv
 %run infer.py --image "/content/drive/MyDrive/Emotional_Face/sad.jpg"
 
 📈 Results
-
 Confusion Matrix for test set
 Sample predictions (true vs predicted with confidence)
-(Add confusion matrix image here if available)
 
 📦 Requirements
 Python 3.10+
