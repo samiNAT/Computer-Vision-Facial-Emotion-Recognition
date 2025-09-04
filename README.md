@@ -50,6 +50,21 @@ Example label mapping (from `classes.json`):
   }
 }
 ---
+## ⚙️ Installation  
+
+```bash
+# Clone repository
+git clone https://github.com/samiNAT/Face_Emotion_Detection.git
+cd Face_Emotion_Detection
+
+# (Optional) Create virtual environment
+python -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate      # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
 ⚙️ Installation
 # Clone repository
 git clone https://github.com/samiNAT/Face_Emotion_Detection.git
