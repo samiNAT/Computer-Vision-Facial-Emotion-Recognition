@@ -57,7 +57,7 @@ https://github.com/samiNAT/Face_Emotion_Detection.git
 cd Face_Emotion_Detection
 
 ---
-##🚀 Quick Start (Local)
+#🚀 Quick Start (Local)
 1. Train
 python train.py
 
