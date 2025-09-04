@@ -49,14 +49,15 @@ Example label mapping (from `classes.json`):
   }
 }
 
-##
-⚙️ Installation
+---
+##⚙️ Installation
 
 # Clone repository
 https://github.com/samiNAT/Face_Emotion_Detection.git
 cd Face_Emotion_Detection
 
-🚀 Quick Start (Local)
+---
+##🚀 Quick Start (Local)
 1. Train
 python train.py
 
@@ -69,14 +70,16 @@ python infer.py --image /path/to/image.jpg
 Or from test set:
 python infer.py --index 3
 
-📊 Outputs
+---
+##📊 Outputs
 Training automatically saves results in ./outputs:
 ✅ Best model checkpoint → best_model.pth
 ✅ Training history → history.pkl
 ✅ Accuracy curve → acc_curve.png
 ✅ Loss curve → loss_curve.png
 
-☁️ Run on Google Colab
+---
+##☁️ Run on Google Colab
 The project runs smoothly on Google Colab with GPU. Example workflow:
 
 import torch, platform
@@ -118,7 +121,8 @@ display(Image(filename="outputs/loss_curve.png"))
 Confusion Matrix for test set
 Sample predictions (true vs predicted with confidence)
 
-📦 Requirements
+---
+##📦 Requirements
 Python 3.10+
 torch, torchvision
 numpy, pandas
@@ -127,6 +131,7 @@ scikit-learn, matplotlib, Pillow
 Install via:
 pip install torch torchvision numpy pandas scikit-learn matplotlib pillow
 
-🤝 Contributing
+---
+##🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Open a PR or issue to discuss improvements.
