@@ -40,6 +40,12 @@ The project works with **FER-style CSV datasets**, where pixel values are stored
 git clone https://github.com/samiNAT/Face_Emotion_Detection.git
 cd Face_Emotion_Detection
 
+## Unzip datasets (adjust if needed)
+unzip data.zip -d ./data
+unzip train.zip -d .
+unzip test.zip -d .
+unzip val.zip -d .
+
 ## 🚀 Quick Start (Local)
 1. Train
 python train.py
